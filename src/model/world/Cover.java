@@ -14,7 +14,7 @@ public class Cover {
     public Cover(int x, int y) {
         location = new Point(x, y);
         Random rand = new Random();
-        setCurrentHP(rand.nextInt(901) + 100);
+        setCurrentHP(rand.nextInt(900) + 100);
     }
     
     public int getCurrentHP() {
